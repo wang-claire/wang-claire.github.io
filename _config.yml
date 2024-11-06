@@ -2,6 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 remote_theme: alshedivat/al-folio
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Claire
 middle_name:
